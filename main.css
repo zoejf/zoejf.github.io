@@ -1,0 +1,267 @@
+/*ALL PAGE ELEMENTS*/
+body {
+	font-family: 'Arimo', sans-serif;
+}
+.handwriting {
+	font-family: 'Annie Use Your Telescope', cursive;
+}
+.color {
+  color: #689687;
+}
+.orange {
+	color: #C0362C;
+}
+.navbar-inverse .navbar-brand {
+	color: #689687;
+}
+.section-header {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #689687;
+	text-align: center;
+}
+@media (max-width: 500px) {
+	.mobile-text {
+		font-style: 1.3em;
+	}
+}
+
+/*WELCOME SECTION*/
+#welcome-section {
+	height: 100vh;
+	background-image: url(images/SF_background.jpeg);
+	background-size: cover;
+	position: relative;
+}
+.name {
+	font-size: 200%;
+}
+.heading {
+	margin-top: 175px;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.tagline-text {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 2.2em;
+}
+
+.text-sm {
+	font-size:1.8em;
+}
+.social-icons {
+	margin: 20px auto;
+	text-align: center;
+}
+/* unvisited link */
+.social-icons a:link {
+    color: white;
+}
+/* visited link */
+.social-icons a:visited {
+    color: white;
+}
+/* mouse over link */
+.social-icons a:hover {
+    color: #689687;
+}
+/* selected link */
+.social-icons a:active {
+    color: white;
+}
+
+
+/*PORTFOLIO AND TINY PROJECTS*/
+.stack ul {
+	list-style: none;
+	padding-left: 0;
+}
+.description {
+	margin-top: 5px;
+	font-size: .7em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.project-heading {
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+}
+.col-md-4 a {
+	text-decoration: none;
+}
+.col-sm-4 a {
+	text-decoration: none;
+}
+
+/*PORTFOLIO SECTION*/
+#portfolio {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+div.project {
+	text-align: center;
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	height: 200px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+.project-heading {
+	text-align: center;
+	margin: 5px auto;
+	color: black;
+	font-size: 1.5em;
+}
+.project-heading span {
+	padding-top: 20px;
+	font-weight: bold;
+}
+.project-heading a {
+	color: black;
+	text-decoration: none;
+}
+.project-heading a:hover {
+	color: #C0362C;
+}
+.project .stack {
+	display: none;
+	background-color: rgba(104,150,135, 0.8);
+	text-align: center;
+	font-size: 1.2em;
+	border-radius: 5px;
+	color: white;
+	height: 200px;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#to-market {
+	background-image: url(images/to-market-screenshot.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#scope {
+	background-image: url(images/scope-screenshot.png);
+	background-size: cover;
+	background-position: center;
+}
+#canopy {
+	background-image: url(images/canopy-screenshot.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*TINY PROJECTS SECTION*/
+#tiny-projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: black;
+}
+div.t-project {
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	height: 300px;
+	margin-top: 30px;
+}
+.t-project .stack  {
+	display: none;
+	text-align: center;
+	background-color: rgba(104,150,135, 0.8);
+	border-radius: 5px;
+	font-size: 1.3em;
+	color: white;
+	height: 300px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 50px;
+}
+.tproject-heading a {
+	color: white;
+	text-decoration: none;
+}
+.tproject-heading a:hover {
+	color: #C0362C;
+}
+.tproject-heading {
+	text-align: center;
+	margin: 5px auto;
+	color: white;
+	font-size: 1.5em;
+}
+.tproject-heading ul {
+	color: white;
+	list-style: none;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 50px;
+	font-size: .8em;
+}
+#simplify-local {
+	background-image: url(http://i.imgur.com/mT27M3Y.png);
+	background-size: cover;
+	background-position: center;
+}
+#classroom-chat {
+	background-image: url(images/classroom-chat.png);
+	background-size: cover;
+}
+
+
+/*ABOUT ME SECTION*/
+#about-me {
+	padding-top: 40px;
+}
+#about-me .text-content {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	font-size: 1.2em;
+}
+.row .skills {
+	margin: 20px auto;
+	padding-top: 20px;
+}
+.skills-box ul {
+	list-style: none;
+	padding-left: 0;
+}
+.skills-box {
+	height: 175px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: rgba(155,155,155, .7);
+	padding-top: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+.skills-box h4{
+	font-weight: bold;
+	color: white;
+}
+
+
+/*FOOTER*/
+#footer {
+	color: #689687;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	margin-bottom: -30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#footer p {
+	margin-bottom: -15px;
+}
+#copyright {
+	color: white;
+	font-size: .6em;
+}
