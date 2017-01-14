@@ -2,9 +2,6 @@
 body {
 	font-family: 'Arimo', sans-serif;
 }
-.handwriting {
-	font-family: 'Annie Use Your Telescope', cursive;
-}
 .color {
   color: #689687;
 }
@@ -15,7 +12,6 @@ body {
 	color: #689687;
 }
 .section-header {
-	font-family: 'Annie Use Your Telescope', cursive;
 	color: #689687;
 	text-align: center;
 }
